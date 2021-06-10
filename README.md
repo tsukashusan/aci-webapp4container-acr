@@ -1,4 +1,4 @@
-# Sample Azure Container Instance + Web App for Containers  + Azure Container Registry
+# Sample of Azure Container Instance + Web App for Containers  + Azure Container Registry
 
 ## Common Setting
 - $tenantId = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" <- Tenant ID from Azure AD
