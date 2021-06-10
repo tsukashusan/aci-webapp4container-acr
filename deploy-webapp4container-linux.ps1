@@ -34,7 +34,7 @@ az appservice plan create --name ${planLinux} --resource-group ${resourceGroup} 
 
 # Create a web app.
 az webapp create --name ${appName} --plan ${planLinux} --resource-group ${resourceGroup} `
---deployment-container-image-name "${registry_name}.azurecr.io/${container_name}:${version}" `
+--deployment-container-image-name "https://${registry_name}.azurecr.io/${container_name}:${version}" `
 --docker-registry-server-user ${registry_user} `
 --docker-registry-server-password ${registry_password} `
 --debug
